@@ -1,14 +1,11 @@
-/*
-* Flag.java
-* Author: Rivká Hanna
-* Date: Oct 4, 2022
-* Locarion: Ixtac, Veracruz
-*/
-
-class Flag {
-  public static void main(String[] args) {
+//Flag.java
+//Author: Rivká
+//Fecha: Oct 04, 2022
+class Flag { //Nombre del programa
+  public static void main(String[] args) { //main 
     	
-    boolean flag = true;
-    System.out.println(flag);    // prints true
+    boolean flag = false;            //Defien el valor de boolean
+    System.out.println("Valor de flag: ");
+    System.out.println(!!flag);       // prints true
   }
 }
